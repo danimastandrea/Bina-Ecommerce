@@ -1,9 +1,4 @@
-#root {
-  max-width: 1500px;
-  
 
- 
-}
 body{
   margin: 0!important;
 }
@@ -17,20 +12,21 @@ body{
 }
 .navLink{
   color: #fff;
-  font-size: 20px;
-  font-weight: 200;
-  text-decoration: unset;
-  font-family: 'Courier New', Courier, monospace;
-  text-decoration: unset;
+ text-decoration: unset;
+  font-size: 25px;
+  text-transform: uppercase;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serifs;
+  letter-spacing: 1.5px;
 }
 .navLink:hover{
   text-decoration: underline;
-  transition: 0.2s;
+  transition: 0.3s;
 }
 .navTitle{
   color: #fff;
   text-decoration: unset;
   font-weight: 200;
+  font-size: 40px;
   text-transform: uppercase;
 }
 .navLi{

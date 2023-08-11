@@ -2,4 +2,8 @@
     display: flex;
     flex-wrap: wrap;
     padding-bottom: 90px;
+    
+}
+.sectionItemList{
+    padding-top: 200px;
 }

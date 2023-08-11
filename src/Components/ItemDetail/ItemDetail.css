@@ -2,15 +2,17 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 2rem;
+   
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     border-radius: 5px;
     background-color: #f1f1f1;
-    margin: 3rem;
-    max-width: 800px;
-    margin: 3rem auto;
-}
 
+    max-width: 800px;
+    margin:  3rem auto;
+}
+.itemSection{
+    padding-top: 200px;
+}
 .itemContainer h2 {
     font-size: 2rem;
     margin-bottom: 0.5rem;

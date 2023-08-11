@@ -8,14 +8,14 @@ const ItemCount = ({inicial, stock, funcionAgregar}) => {
     const incrementar = ()=>{
         if (contador < stock){
             setContador (contador +1);
-           funcionAgregar(contador + 1);
+           
         }
     }
 
     const decrementar =()=>{
         if(contador > inicial){
             setContador (contador -1);
-            funcionAgregar(contador - 1);
+          
         }
     }
     
@@ -23,7 +23,7 @@ const ItemCount = ({inicial, stock, funcionAgregar}) => {
     <section className="cartBtns">
     <div>
 
-        <button  onClick={incrementar}> + </button>
+        <button className="counterBtn" onClick={incrementar}> + </button>
         <p className="textCount">{contador} </p>
         <button className="counterBtn" onClick={decrementar}> - </button>
     </div>

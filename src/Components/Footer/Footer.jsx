@@ -8,7 +8,7 @@ const Footer = () => {
 
    <div className="containerInfo">
       <div className="footerLogo">
-        <img className='footerImg' src="./public/img/binalogo.PNG" alt="" />
+        <img className='footerImg' src="/img/binalogo.png" alt="" />
       </div>
 
     <div className="info__footer">

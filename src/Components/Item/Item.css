@@ -9,10 +9,16 @@
     align-items: center;
     
 }
-
+.cardProductos h3{
+    text-transform: uppercase;
+    font-size: 28px;
+    font-weight: 200;
+    font-family: 'Inter';
+}
 .imgProductos{
    width: 150px;
    object-fit: contain;
+
 
 }
 
@@ -20,7 +26,8 @@
     display: flex;
     justify-content: space-between;
     margin: auto;
-    padding-top: 50px;
+    padding-top: 30px;
+    padding-bottom: 40px;
 
 }
 .cardLink{

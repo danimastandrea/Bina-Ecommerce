@@ -1,5 +1,7 @@
 
-
+.sectionCheckout{
+    padding-top: 150px;
+}
 .inputContainer{
  display: flex;
  flex-direction: column;

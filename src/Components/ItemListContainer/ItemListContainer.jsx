@@ -7,6 +7,7 @@ import { collection, getDocs, where, query } from "firebase/firestore";
 import { db } from "../../Services/config";
 
 
+// eslint-disable-next-line no-unused-vars
 const ItemListContainer = (props) => {
  
   const [Productos, setProductos]= useState([]);
@@ -29,7 +30,7 @@ const ItemListContainer = (props) => {
   return (
     <>   
    
-    <h2>{props.greeting} </h2>
+    
     <ItemList productos={Productos}/>
     </>
   )

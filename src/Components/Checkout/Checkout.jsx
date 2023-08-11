@@ -82,7 +82,7 @@ const Checkout = () => {
     }
 
     return (
-        <section>
+        <section className="sectionCheckout">
             
             <form className="inputContainer" onSubmit={manejadorFormulario}>
             <h2 > Finalizar Compra </h2>
