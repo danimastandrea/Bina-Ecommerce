@@ -1,0 +1,17 @@
+
+.cartBtns div{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.textCount{
+    color: #000;
+    padding: 0 20px 0 20px;
+}
+.counterBtn{
+    background-color: #73725e;
+    color: #fff;
+    font-size: 40px;
+}
+
+

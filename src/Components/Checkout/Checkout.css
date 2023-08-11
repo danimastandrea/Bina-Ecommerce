@@ -1,0 +1,59 @@
+
+
+.inputContainer{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ padding: 60px 0 60px 0;
+}
+.containerProductForm{
+    width: 15rem;
+    flex-direction: column;
+     display: flex;
+    font-size: 20px;
+     align-items: center;
+     background-color: #f1f1f1;
+}
+strong{
+    width: 15rem;
+    text-align: center;
+    background-color: #f1f1f1;
+    padding-bottom: 1rem;
+}
+
+.form-group{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 400px;
+}
+.form-group input{
+    border-radius: 3px;
+    border-color: #73725e;
+}
+#formBtn{
+    margin-top: 20px;
+   
+
+}
+
+.confirmMsg{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.inputCheck{
+    border-bottom: 1px solid #73725e;
+    border-top: unset;
+    border-left: unset;
+    border-right: unset;
+   font-size: 20px;
+}
+.inputCheck:hover{
+    border-bottom: 2px solid #73725e;
+}
+label{
+    padding-top: 20px;
+    font-size: 25px;
+}

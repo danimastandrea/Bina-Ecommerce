@@ -1,0 +1,17 @@
+.containerCartItems{
+    display: flex;
+   
+    justify-content: center;
+    align-items: center;
+}
+.containerCart{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 18rem;
+    height: 18rem;
+    background-color: #f1f1f1;
+    padding-bottom: 40px;
+    margin-top: 5rem;
+}

@@ -1,0 +1,10 @@
+.header{
+    display: flex;
+    background-color: #73725e;
+    
+    justify-content: space-around;
+    border-bottom: 1px solid black;
+    padding-top: 20px;
+}
+
+

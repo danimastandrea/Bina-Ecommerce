@@ -1,0 +1,57 @@
+.prueba{
+    padding-top: 96px;
+      padding-bottom: 96px;
+      background-color: #f1f1f1;
+    }
+    .containerAbout{
+      display: flex;
+      justify-content: space-around;
+      margin: auto;
+      max-width: 1200px;
+    }
+
+     .card__shop{
+      background-image: url(https://danimastandrea.github.io/ProyectoBinaDeco/assets/descarga.jpg);
+      height: 500px;
+      width: 500px;
+      display: flex;
+      flex-direction: column;
+      margin: auto;
+      text-align: center;
+      align-content: center;
+      justify-content: center;
+    }
+      .titleAbout{
+        font-size: 40px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: 700;
+         color: #595844;
+      }
+      .infoAbout{
+        font-size: 20px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: #595844;
+      }
+
+     .card__us{
+      background-image: url(https://danimastandrea.github.io/ProyectoBinaDeco/assets/us.jpg);
+      height: 500px;
+      width: 500px;
+      display: flex;
+      flex-direction: column;
+      margin: auto;
+      align-content: center;
+      justify-content: center;
+      text-align: center;
+    }
+      .titleAbout{
+        font-size: 40px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: 700;
+        color: #595844;
+      }
+      .infoAbout{
+        font-size: 20px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: #595844;
+      }

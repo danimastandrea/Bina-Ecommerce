@@ -1,0 +1,13 @@
+.imgCarrito{
+    width: 40px;
+    height: 40px;
+    filter: invert(1);
+   
+}
+.counterCarrito{
+    color: #fff;
+    font-size: 25px;
+    text-decoration: unset;
+   text-align: center;
+   margin-top: 0;
+}
