@@ -3,6 +3,8 @@
    
     justify-content: center;
     align-items: center;
+    padding-top: 150px;
+    padding-bottom: 150px;
 }
 .containerCart{
     display: flex;
@@ -14,4 +16,13 @@
     background-color: #f1f1f1;
     padding-bottom: 40px;
     margin-top: 5rem;
+}
+.emptyCart{
+    padding-top: 200px;
+    padding-bottom: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
 }
