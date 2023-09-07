@@ -9,6 +9,11 @@
       margin: auto;
       max-width: 1200px;
     }
+    @media (max-width: 1024px){
+      .containerAbout{
+        flex-direction: column;
+      }
+    }
 
      .card__shop{
       background-image: url(https://danimastandrea.github.io/ProyectoBinaDeco/assets/descarga.jpg);
@@ -20,7 +25,11 @@
       text-align: center;
       align-content: center;
       justify-content: center;
+      @media (max-width: 1024px){
+      width: 350px;
+      height: 350px;
     }
+  }
       .titleAbout{
         font-size: 40px;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -43,6 +52,10 @@
       align-content: center;
       justify-content: center;
       text-align: center;
+      @media (max-width: 1024px){
+        width: 350px;
+        height: 350px;
+      }
     }
       .titleAbout{
         font-size: 40px;

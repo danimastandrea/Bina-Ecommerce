@@ -3,6 +3,9 @@
    width: 100%;
    background-color: #73725e;
    padding-bottom: 80px;
+   @media (max-width: 1024px){
+     height: auto;
+    }
 } 
 
   .containerInfo{
@@ -13,10 +16,20 @@
      align-items: center;   
     margin: auto;
     background-color: rgba(115, 114, 94, 1);
+    @media (max-width: 1024px){
+      justify-content: center;
+      flex-direction: column-reverse;
+      max-width: 300px;
+    }
 
 }
   
-
+@media (max-width: 1024px){
+   .info__footer{
+      margin: auto;
+      text-align: center;
+   }
+}
 
    .info__footer  h4{
         font-size: 20px;
